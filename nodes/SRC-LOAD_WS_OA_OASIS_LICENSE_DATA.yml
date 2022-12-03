@@ -1,0 +1,93 @@
+steps:
+  LOAD_WS_OA_OASIS_LICENSE_DATA-11089:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 259700
+              stepCounter: 11089
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: LICENSE_TYPE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 259701
+              stepCounter: 11089
+            config: {}
+            dataType: VARCHAR(4000)
+            defaultValue: ""
+            description: ""
+            name: ENCRYPTED_LICENSE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 259702
+              stepCounter: 11089
+            config: {}
+            dataType: VARCHAR(4000)
+            defaultValue: ""
+            description: ""
+            name: ENCRYPTED_LICENSE_DETAIL
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 259703
+              stepCounter: 11089
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 259704
+              stepCounter: 11089
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'LOAD_WS_OA_OASIS_LICENSE_DATA') }}
+      name: LOAD_WS_OA_OASIS_LICENSE_DATA
+      schema: ""
+      sqlType: Source
+      table: LOAD_WS_OA_OASIS_LICENSE_DATA
+      type: sourceInput
+    stepCounter: "11089"

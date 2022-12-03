@@ -1,0 +1,1067 @@
+steps:
+  DS_LOAD_WS_WS_WRK_JOB_CTRL-11692:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 275587
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_JOB_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275352
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275588
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275353
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275589
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275354
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275590
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_SEQUENCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275355
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275591
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_GROUP_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275356
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275592
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_PROJECT_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275357
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275593
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275358
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275594
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_LAST_STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275359
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275595
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TYPE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275360
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275596
+              stepCounter: "11692"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_SUBMITTED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275361
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275597
+              stepCounter: "11692"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_FIRST_SCHEDULE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275362
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275598
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_START_HOUR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275363
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275599
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_START_MINUTE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275364
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275600
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_START_DAY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275365
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275601
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_USER_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275366
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275602
+              stepCounter: "11692"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_START_AFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275367
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275603
+              stepCounter: "11692"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_STARTED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275368
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275604
+              stepCounter: "11692"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_COMPLETED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275369
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275605
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_MAX_ELAPSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275370
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275606
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TASK_ELAPSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275371
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275607
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_AVG_ELAPSED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275372
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275608
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_AVG_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275373
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275609
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_PUBLISH_OKAY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275374
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275610
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_PUBLISH_FAIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275375
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275611
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TASK_FATAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275376
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275612
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TASK_ERROR
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275377
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275613
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TASK_WARNING
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275378
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275614
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TASK_INFO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275379
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275615
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_TASK_OKAY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275380
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275616
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CHKP_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275381
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275617
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_MAX_THREADS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275382
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275618
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_PRIORITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275383
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275619
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_PUBLISH_FLAG
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275384
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275620
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_SCHEDULER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275385
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275621
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CUST_SA_HH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275386
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275622
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CUST_SA_MM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275387
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275623
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CUST_SB_HH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275388
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275624
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CUST_SB_MM
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275389
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275625
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CUST_MIN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275390
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275626
+              stepCounter: "11692"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_CUST_DAYS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275391
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275627
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_WARN_ACT_IND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275392
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275628
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_PUBLISH_WARN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275393
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275629
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_RUN_USERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275394
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275630
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_RUN_PWD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275395
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275631
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275396
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275632
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275397
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275633
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275398
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275634
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_4
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275399
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275635
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_5
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275400
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275636
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_6
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275401
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275637
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_7
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275402
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275638
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_8
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275403
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275639
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_9
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275404
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275640
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_10
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275405
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275641
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_11
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275406
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275642
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_12
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275407
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275643
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_13
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275408
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275644
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_14
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275409
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275645
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_15
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275410
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275646
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_DOC_16
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275411
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275647
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275412
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275648
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275413
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275649
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275414
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275650
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE4
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275415
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275651
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE5
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275416
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275652
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE6
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275417
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275653
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE7
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275418
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275654
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_ATTRIBUTE8
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275419
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275655
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJC_IDLE_THREAD_WAIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275420
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275656
+              stepCounter: "11692"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275421
+                    stepCounter: "11686"
+                transform: ""
+          - columnReference:
+              columnCounter: 275657
+              stepCounter: "11692"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275422
+                    stepCounter: "11686"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 275658
+              stepCounter: "11692"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: DSS_CREATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 275659
+              stepCounter: "11692"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: DSS_UPDATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: LOAD_WS_WS_WRK_JOB_CTRL
+            join:
+              joinCondition: FROM {{ ref('SRC', 'LOAD_WS_WS_WRK_JOB_CTRL') }} "LOAD_WS_WS_WRK_JOB_CTRL"
+            name: DS_LOAD_WS_WS_WRK_JOB_CTRL
+            noLinkRefs: []
+      name: DS_LOAD_WS_WS_WRK_JOB_CTRL
+      overrideSQL: false
+      schema: ""
+      sqlType: "69"
+      type: sql
+    stepCounter: "11692"

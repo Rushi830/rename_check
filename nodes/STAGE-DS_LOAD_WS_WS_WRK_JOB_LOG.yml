@@ -1,0 +1,857 @@
+steps:
+  DS_LOAD_WS_WS_WRK_JOB_LOG-11693:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 275660
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_JOB_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275423
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275661
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275424
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275662
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_SEQUENCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275425
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275663
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_RESTART
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275426
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275664
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275427
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275665
+              stepCounter: "11693"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_SCHEDULED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275428
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275666
+              stepCounter: "11693"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_STARTED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275429
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275667
+              stepCounter: "11693"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_COMPLETED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275430
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275668
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ELAPSED_HH
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275431
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275669
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ELAPSED_MI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275432
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275670
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_OKAY_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275433
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275671
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_INFO_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275434
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275672
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_WARNING_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275435
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275673
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ERROR_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275436
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275674
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DETAIL_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275437
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275675
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_CHKP_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275438
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275676
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_CHKP_NUMBER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275439
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275677
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_USER_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275440
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275678
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_MAX_THREADS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275441
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275679
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_PUBLISH_OKAY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275442
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275680
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_PUBLISH_FAIL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275443
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275681
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_SCHEDULER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275444
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275682
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_OKAY_ACT_IND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275445
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275683
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_FAIL_ACT_IND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275446
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275684
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_WARN_ACT_IND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275447
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275685
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_PUBLISH_WARN
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275448
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275686
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_RUN_USERID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275449
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275687
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_RUN_PWD
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275450
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275688
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275451
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275689
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275452
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275690
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275453
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275691
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_4
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275454
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275692
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_5
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275455
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275693
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_6
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275456
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275694
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_7
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275457
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275695
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_8
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275458
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275696
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_9
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275459
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275697
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_10
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275460
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275698
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_11
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275461
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275699
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_12
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275462
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275700
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_13
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275463
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275701
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_14
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275464
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275702
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_15
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275465
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275703
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_DOC_16
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275466
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275704
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE1
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275467
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275705
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE2
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275468
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275706
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE3
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275469
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275707
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE4
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275470
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275708
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE5
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275471
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275709
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE6
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275472
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275710
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE7
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275473
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275711
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_ATTRIBUTE8
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275474
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275712
+              stepCounter: "11693"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_RESTART_AFTER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275475
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275713
+              stepCounter: "11693"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: WJL_IDLE_THREAD_WAIT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275476
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275714
+              stepCounter: "11693"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275477
+                    stepCounter: "11687"
+                transform: ""
+          - columnReference:
+              columnCounter: 275715
+              stepCounter: "11693"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275478
+                    stepCounter: "11687"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 275716
+              stepCounter: "11693"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: DSS_CREATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 275717
+              stepCounter: "11693"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: DSS_UPDATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: LOAD_WS_WS_WRK_JOB_LOG
+            join:
+              joinCondition: FROM {{ ref('SRC', 'LOAD_WS_WS_WRK_JOB_LOG') }} "LOAD_WS_WS_WRK_JOB_LOG"
+            name: DS_LOAD_WS_WS_WRK_JOB_LOG
+            noLinkRefs: []
+      name: DS_LOAD_WS_WS_WRK_JOB_LOG
+      overrideSQL: false
+      schema: ""
+      sqlType: "69"
+      type: sql
+    stepCounter: "11693"

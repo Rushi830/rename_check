@@ -1,0 +1,297 @@
+steps:
+  DS_LOAD_WS_WS_WS_APP-11695:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      dependencies: []
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: false
+      locationID: ""
+      locationName: STAGE
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 275776
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_APP_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275535
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275777
+              stepCounter: "11695"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_IDENTIFIER
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275536
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275778
+              stepCounter: "11695"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_VERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275537
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275779
+              stepCounter: "11695"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_NAME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275538
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275780
+              stepCounter: "11695"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_DESCRIPTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275539
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275781
+              stepCounter: "11695"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_STATUS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275540
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275782
+              stepCounter: "11695"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_INSTALLED
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275541
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275783
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_ADD_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275542
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275784
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_REPLACE_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275543
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275785
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_CREATE_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275544
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275786
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_ALTER_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275545
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275787
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_COMPILE_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275546
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275788
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_USER_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275547
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275789
+              stepCounter: "11695"
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AP_DELETE_COUNT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275548
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275790
+              stepCounter: "11695"
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275549
+                    stepCounter: "11689"
+                transform: ""
+          - columnReference:
+              columnCounter: 275791
+              stepCounter: "11695"
+            dataType: TIMESTAMP_NTZ(9)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DSS_LOAD_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 275550
+                    stepCounter: "11689"
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 275792
+              stepCounter: "11695"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: DSS_CREATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 275793
+              stepCounter: "11695"
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: DSS_UPDATE_TIME
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: SRC
+                nodeName: LOAD_WS_WS_WS_APP
+            join:
+              joinCondition: FROM {{ ref('SRC', 'LOAD_WS_WS_WS_APP') }} "LOAD_WS_WS_WS_APP"
+            name: DS_LOAD_WS_WS_WS_APP
+            noLinkRefs: []
+      name: DS_LOAD_WS_WS_WS_APP
+      overrideSQL: false
+      schema: ""
+      sqlType: "69"
+      type: sql
+    stepCounter: "11695"
