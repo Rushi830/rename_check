@@ -1,0 +1,78 @@
+steps:
+  LOAD_WS_OA_FM_PROCESS_AUDIT_PARM_XREF-11005:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 257804
+              stepCounter: 11005
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: FM_PROCESS_AUDIT_FK
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 257805
+              stepCounter: 11005
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: FM_PROCESS_AUDIT_PARM_XREF_FK
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 257806
+              stepCounter: 11005
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 257807
+              stepCounter: 11005
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'LOAD_WS_OA_FM_PROCESS_AUDIT_PARM_XREF') }}
+      name: LOAD_WS_OA_FM_PROCESS_AUDIT_PARM_XREF
+      schema: ""
+      sqlType: Source
+      table: LOAD_WS_OA_FM_PROCESS_AUDIT_PARM_XREF
+      type: sourceInput
+    stepCounter: "11005"

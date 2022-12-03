@@ -1,0 +1,93 @@
+steps:
+  LOAD_WS_OA_AGENT_COMMISSION_PAYMENT_XREF-10689:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 249992
+              stepCounter: 10689
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: AGENT_COMMISSION_FK
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 249993
+              stepCounter: 10689
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: COMMISSION_PAYMENT_FK
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 249994
+              stepCounter: 10689
+            config: {}
+            dataType: NUMBER(30,2)
+            defaultValue: ""
+            description: ""
+            name: COMM_PAY_AMOUNT
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 249995
+              stepCounter: 10689
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 249996
+              stepCounter: 10689
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'LOAD_WS_OA_AGENT_COMMISSION_PAYMENT_XREF') }}
+      name: LOAD_WS_OA_AGENT_COMMISSION_PAYMENT_XREF
+      schema: ""
+      sqlType: Source
+      table: LOAD_WS_OA_AGENT_COMMISSION_PAYMENT_XREF
+      type: sourceInput
+    stepCounter: "10689"

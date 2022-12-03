@@ -1,0 +1,153 @@
+steps:
+  LOAD_WS_PH_PF_WEB_APPLICATION_CUST-11459:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269895
+              stepCounter: 11459
+            config: {}
+            dataType: NUMBER(15,0)
+            defaultValue: ""
+            description: ""
+            name: PF_WEB_APPLICATION_CUST_PK
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269896
+              stepCounter: 11459
+            config: {}
+            dataType: VARCHAR(200)
+            defaultValue: ""
+            description: ""
+            name: CUST_UNIQUE_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269897
+              stepCounter: 11459
+            config: {}
+            dataType: VARCHAR(255)
+            defaultValue: ""
+            description: ""
+            name: LONG_DESCRIPTION
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269898
+              stepCounter: 11459
+            config: {}
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: BASE_HELP_URI
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269899
+              stepCounter: 11459
+            config: {}
+            dataType: VARCHAR(1)
+            defaultValue: ""
+            description: ""
+            name: SECURITY_B
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269900
+              stepCounter: 11459
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: SYS_CREATE_TIME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269901
+              stepCounter: 11459
+            config: {}
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: SYS_CREATED_BY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269902
+              stepCounter: 11459
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: SYS_UPDATE_TIME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 269903
+              stepCounter: 11459
+            config: {}
+            dataType: VARCHAR(30)
+            defaultValue: ""
+            description: ""
+            name: SYS_UPDATED_BY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'LOAD_WS_PH_PF_WEB_APPLICATION_CUST') }}
+      name: LOAD_WS_PH_PF_WEB_APPLICATION_CUST
+      schema: ""
+      sqlType: Source
+      table: LOAD_WS_PH_PF_WEB_APPLICATION_CUST
+      type: sourceInput
+    stepCounter: "11459"

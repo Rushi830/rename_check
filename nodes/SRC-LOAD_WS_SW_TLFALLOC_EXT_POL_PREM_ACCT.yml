@@ -1,0 +1,183 @@
+steps:
+  LOAD_WS_SW_TLFALLOC_EXT_POL_PREM_ACCT-11658:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274687
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: POLICY_NO
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274688
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: CLASS
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274689
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: PHYSICIAN
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274690
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: SPECIALTY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274691
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: ACTUAL_PATIENT_VISITS
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274692
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: PRICE_PER_VISIT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274693
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: INDIVIDUAL_TOTALS
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274694
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: TOTAL_PREM_PRCT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274695
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(1000)
+            defaultValue: ""
+            description: ""
+            name: CLIENT_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274696
+              stepCounter: 11658
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: ""
+            name: DSS_RECORD_SOURCE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 274697
+              stepCounter: 11658
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: DSS_LOAD_DATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'LOAD_WS_SW_TLFALLOC_EXT_POL_PREM_ACCT') }}
+      name: LOAD_WS_SW_TLFALLOC_EXT_POL_PREM_ACCT
+      schema: ""
+      sqlType: Source
+      table: LOAD_WS_SW_TLFALLOC_EXT_POL_PREM_ACCT
+      type: sourceInput
+    stepCounter: "11658"
